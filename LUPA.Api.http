@@ -1,0 +1,11 @@
+@LUPA.Api_HostAddress = http://localhost:5072
+
+### Ping
+GET {{LUPA.Api_HostAddress}}/api/system/ping
+Accept: application/json
+
+###
+
+### Error
+GET {{LUPA.Api_HostAddress}}/api/system/error
+Accept: application/json
